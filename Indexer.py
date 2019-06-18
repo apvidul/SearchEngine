@@ -258,9 +258,5 @@ with open('metadata.json', 'w') as fp:
 
 
 
-print "Average Scene Length",average_scene_length(total_terms,total_docs)
-enc =encode([1,2,3])
-print"vbyte encoding", enc
-dec = decode(enc)
-print"vbyte decoding", dec
+
 
